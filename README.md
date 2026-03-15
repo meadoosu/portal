@@ -25,9 +25,9 @@ Drop your photos into the `photos/` folder, then list them in `config.json`:
 }
 ```
 
-Keep filenames simple with no spaces — use underscores or dashes instead (e.g. `summer_2024.jpg`).
+Keep filenames simple with no spaces — use underscores or dashes instead (e.g. `snow-day.jpg`).
 
-> The more photos you add the better — the slideshow picks randomly and avoids repeating the same photo back to back.
+> If you have 10+ pictures, this app is not recommended. Since you'll need to map a bunch of images, its not sastifactory
 
 ---
 
@@ -110,10 +110,6 @@ After the app loads, **tap anywhere on the screen once** to activate the screen 
 
 The Facebook Portal has a hardcoded idle timeout that's difficult to fully disable through settings alone. This app uses a silent background YouTube video ([7-day timer](https://www.youtube.com/watch?v=gSvU-flG6FY)) to set the OS "media playing" flag, which suppresses the sleep timer indefinitely. Credit to the Home Assistant community for figuring this out.
 
-For best results on the Portal:
-1. Go to **Settings → Display → Screen Off** and set it to the maximum available value
-2. Load the app and tap once when prompted to activate the keep-alive video
-
 ---
 
 ## File structure
@@ -135,16 +131,5 @@ portal/
     └── player.js      ← full-screen player UI
 ```
 
----
 
-## Security note
 
-`config.json` contains your Spotify Client ID. If you're pushing to GitHub, make sure it's in your `.gitignore`. A `config.example.json` with placeholder values is included for reference.
-
----
-
-## License
-
-MIT — do whatever you want with it, just keep the credit.
-
-Built by angle 🖤
