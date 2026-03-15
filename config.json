@@ -1,0 +1,24 @@
+{
+  "spotify": {
+    "clientId": "YOUR_SPOTIFY_CLIENT_ID",
+    "redirectUri": "https://your-hosted-url.com",
+    "scopes": "streaming user-read-playback-state user-modify-playback-state user-read-currently-playing playlist-read-private playlist-read-collaborative user-read-email user-read-private"
+  },
+  "google": {
+    "photos": [
+      "photos/photo1.jpg",
+      "photos/photo2.jpg",
+      "photos/photo3.jpg"
+    ]
+  },
+  "weather": {
+    "lat": "40.7128",
+    "lon": "-74.0060",
+    "units": "imperial",
+    "cityLabel": "New York, NY"
+  },
+  "slideshow": {
+    "intervalSeconds": 12,
+    "transitionSeconds": 1.5
+  }
+}
