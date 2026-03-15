@@ -4,4 +4,5 @@
  how to set up:
 
  1. set up config.json (failure to do so will make your portal self destruct and turn evil)
-    1a. make a spotify developer account with your normal spotify account, then after that: it'll prompt you to make a app, follow their instructions. once you have your app, grab your client ID and paste it into the config.json, go back to the spotify developer portal and paste in the URL you will be hosting this on with the redirect uri being the domain your hosting this on (it MUST be the same domain
+    1a. make a spotify developer account with your normal spotify account, then after that: it'll prompt you to make a app, follow their instructions. once you have your app, grab your client ID and paste it into the config.json, go back to the spotify developer portal and paste in the URL you will be hosting this on, both the uris you input in config.json and the developer app NEEDS to be the same, or else you wouldnt be able to login to spotify.
+    2a. 
